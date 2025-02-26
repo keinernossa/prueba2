@@ -1,0 +1,39 @@
+h1{
+    color: brown;
+    font-size: 50px;
+}
+#nombre{
+    color: chartreuse;
+}
+#nombre2{
+    color: blueviolet;
+}
+.sudtitulo{
+    color: chartreuse;
+}
+.sudtitulo{
+    color: chocolate;
+}
+.caja{
+    width: 500px;
+    height: 400px;
+    margin-left:  20px;
+    padding: 50px;
+     border: 3px solid red;
+}
+.contenedor{
+    display: flex;
+}
+@media(max-width:600px){
+    .contenedor{
+        flex-direction:column;
+    }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    background-color: aqua;
+}
